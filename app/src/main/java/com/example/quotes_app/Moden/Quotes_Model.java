@@ -12,7 +12,6 @@ public class Quotes_Model {
     }
 
 
-
     public int getImage() {
         return image;
     }

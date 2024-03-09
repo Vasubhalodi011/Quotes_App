@@ -43,8 +43,6 @@ public class Sad_Adapter extends RecyclerView.Adapter<Sad_Adapter.SadViewHolder>
         holder.sad_name.setText(l1.get(position).Sad_name);
         holder.sad_authirname.setText(l1.get(position).Author_name);
 
-
-
         holder.quotes_copy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,7 +85,6 @@ public class Sad_Adapter extends RecyclerView.Adapter<Sad_Adapter.SadViewHolder>
             imagepasing = itemView.findViewById(R.id.imagepasing);
             sad_name = itemView.findViewById(R.id.sad_name);
             sad_authirname = itemView.findViewById(R.id.sad_authirname);
-
             quotes_copy = itemView.findViewById(R.id.quotes_copy);
             quotes_share = itemView.findViewById(R.id.quotes_share);
 
